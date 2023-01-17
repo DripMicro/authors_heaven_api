@@ -10,4 +10,4 @@ SECRET_KEY = env(
     "DJANGO_SECRET_KEY" ,
     default="ihedfhwihfep2hpinlwpeifhpiwlbwohgphiefohwpihefw")
 
-ALLOWED_HOSTS = ["localhost", "0.0.0.0", "127.0.0.1","192.168.1.91",]
+ALLOWED_HOSTS = ["localhost", "0.0.0.0", "127.0.0.1"]

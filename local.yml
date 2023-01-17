@@ -11,7 +11,7 @@ services:
             - .:/app
             - static_volume:/app/staticfiles
             - media_volume:/app/mediafiles
-        expose:
+        ports:
             - "8000:8000"
         env_file:
             - ./.envs/.local/.django
@@ -42,13 +42,6 @@ services:
             - "8025:8025"
         networks:
             - authors-api-live
-
-
-
-
-  
-
-
 
 networks:
     authors-api-live:
